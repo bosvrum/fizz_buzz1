@@ -1,20 +1,21 @@
 FIZZ = 'Fizz'
-FIZZ_NUMBER = 3
 BUZZ = 'Buzz'
+FIZZ_NUMBER = 3
 BUZZ_NUMBER = 5
+NO_REMAINDER = 0
 
 def fizzbuzz(the_number)
 	
 	return FIZZ if fizz_number? the_number
 	return BUZZ if buzz_number? the_number 
-	return "FizzBuzz" if the_number % 3 == 0 && the_number % 5 == 0
+	return "FizzBuzz" if the_number % FIZZ_NUMBER == 0 && the_number % BUZZ_NUMBER == 0
     the_number
 end
 
 def fizz_number? the_number
-	the_number == FIZZ_NUMBER
+	the_number % FIZZ_NUMBER == NO_REMAINDER
 end
 
 def buzz_number? the_number
-	the_number = BUZZ_NUMBER
+	the_number % BUZZ_NUMBER == NO_REMAINDER
 end

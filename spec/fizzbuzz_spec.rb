@@ -8,11 +8,9 @@ describe "FizzBuzz" do
   end
   it "replies fizz" do
   	expect(fizzbuzz(3)).to eq('Fizz')
-  	
   end
   it "replies buzz" do
   	expect(fizzbuzz(5)).to eq('Buzz')
-  	expect(fizzbuzz(10)).to eq('Buzz')
   end
   it "replies FizzBuzz" do
   expect(fizzbuzz(15)).to eq('FizzBuzz')
