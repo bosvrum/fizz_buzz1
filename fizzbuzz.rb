@@ -1,5 +1,7 @@
 FIZZ = 'Fizz'
 FIZZ_NUMBER = 3
+BUZZ = 'Buzz'
+BUZZ_NUMBER = 5
 
 def fizzbuzz(the_number)
 	return 'Fizz' if the_number == FIZZ_NUMBER
