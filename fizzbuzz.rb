@@ -1,5 +1,6 @@
 FIZZ = 'Fizz'
 BUZZ = 'Buzz'
+EMPTY = ''
 FIZZ_NUMBER = 3
 BUZZ_NUMBER = 5
 NO_REMAINDER = 0
